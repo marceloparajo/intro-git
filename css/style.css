@@ -32,7 +32,7 @@ header{
 	border-bottom:5px solid #fff;
 }
 main{
-	font-size:40px;
+	font-size:30px;
 }
 footer{
 	height:60px;
@@ -42,4 +42,15 @@ footer{
 	justify-content:space-between;
 	align-items:center;
 	padding:0 20px;
+}
+.products{
+	display:flex;
+	justify-content:space-around;
+}
+.box{
+	width:150px;
+	height:150px;
+	background:limegreen;
+	margin:20px;
+	border-radius:50%;
 }
